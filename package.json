@@ -81,5 +81,10 @@
     "@babel/runtime-corejs3": "^7.18.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
-  }
+  },
+  "sideEffects": [
+    "*.less",
+    "*.scss",
+    "*.css"
+  ]
 }

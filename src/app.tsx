@@ -10,6 +10,7 @@ interface IProps {
 
 function App(props: IProps) {
   const { name, age } = props;
+  console.log(name, 123);
   return (
     <div className="app">
       <span>{name}</span>
