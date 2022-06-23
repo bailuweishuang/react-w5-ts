@@ -48,6 +48,7 @@ module.exports = {
     filename: outPutFilename,
     path: path.resolve(PROJECT_PATH, './dist'),
     clean: true,
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.json'],
@@ -77,6 +78,9 @@ module.exports = {
             loader: 'less-loader',
             options: {
               sourceMap: isDev,
+              lessOptions: {
+                javascriptEnabled: true,
+              },
             },
           },
         ],

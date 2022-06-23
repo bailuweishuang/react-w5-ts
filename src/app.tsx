@@ -1,5 +1,5 @@
 import React from 'react';
-import { add, minus } from 'Utils/math';
+// import { add, minus } from 'Utils/math';
 
 import './app.less';
 
@@ -15,7 +15,7 @@ function App(props: IProps) {
     <div className="app">
       <span>{name}</span>
       <span>{age}</span>
-      <p>{add(1, 2)}</p>
+      {/* <p>{add(1, 2)}</p> */}
     </div>
   );
 }

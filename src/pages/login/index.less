@@ -1,0 +1,69 @@
+.login-content {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  .video-content {
+    width: calc(100vw - 520px);
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .right-content {
+    flex: 1;
+    background: linear-gradient(45deg, #545c5c, #d9add1);
+
+    .right-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: whitesmoke;
+
+      .r-t-left {
+        border-bottom: 4px double slategrey;
+
+        :first-child {
+          display: inline-block;
+          margin-right: 10px;
+          font-size: 32px;
+          font-family: fantasy;
+        }
+      }
+    }
+
+    .right-form {
+      position: relative;
+
+      .right-form-content {
+        margin: 70px;
+        padding: 70px 70px 30px 20px;
+        background-color: whitesmoke;
+        border-radius: 6px;
+
+        .ant-btn {
+          width: 100%;
+        }
+      }
+    }
+
+    .right-footer {
+      padding: 20px;
+      font-family: fantasy;
+
+      .worry {
+        margin-bottom: 20px;
+      }
+
+      .enjoy {
+        margin-left: 336px;
+      }
+
+      .yueyang {
+        margin-top: 20px;
+        margin-left: 208px;
+      }
+    }
+  }
+}
